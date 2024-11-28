@@ -24,13 +24,13 @@
     
 ## Questão 5:
 
-Verificação de Triângulo: Peça ao usuário o comprimento de três lados em uma única entrada
-e verifique se eles podem formar um triângulo. 
-Se sim, determine se é um triângulo equilátero, isósceles ou escaleno.
-Exemplo:
-    333: equilátero
-    322: isosceles
-    234: escaleno
+    Verificação de Triângulo: Peça ao usuário o comprimento de três lados em uma única entrada
+    e verifique se eles podem formar um triângulo. 
+    Se sim, determine se é um triângulo equilátero, isósceles ou escaleno.
+    Exemplo:
+        333: equilátero
+        322: isosceles
+        234: escaleno
 
 ## Questão 6:
 
