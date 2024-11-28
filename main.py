@@ -46,3 +46,17 @@ def q5():
     """
     pass
 
+def q6():
+    pass
+
+def q7():
+    pass
+
+def q8():
+    pass
+
+def q9():
+    pass
+
+def q10():
+    pass
