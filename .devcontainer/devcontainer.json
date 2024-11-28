@@ -21,9 +21,8 @@
         "extensions": [
           "dbaeumer.vscode-eslint",
           "esbenp.prettier-vscode",
-          "GitHub.copilot",
-          "ms-vscode.azure-account",
-          "ms-azuretools.vscode-azurestaticwebapps"
+          "ms-python.python",
+          "mechatroner.rainbow-csv"
         ],
         "settings": {
           "emmet.includeLanguages": {
