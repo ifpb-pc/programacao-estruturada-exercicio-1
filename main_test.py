@@ -3,7 +3,7 @@ import builtins
 import main
 
 
-def test_q1(capfd):
+def test_q01(capfd):
     input_output = {
         '2':'Par\n',
         '3': 'Impar\n',
@@ -16,7 +16,7 @@ def test_q1(capfd):
             out, err = capfd.readouterr()
             assert out == v
 
-def test_q2(capfd):
+def test_q02(capfd):
     input_output = {
         'abcdef':'def\n',
         'texto': 'to\n'
@@ -27,7 +27,7 @@ def test_q2(capfd):
             out, err = capfd.readouterr()
             assert out == v
 
-def test_q3(capfd):
+def test_q03(capfd):
     input_output = {
         '5':'5 10 15 20 25 30 35 40 45 50 ', 
         '7': '7 14 21 28 35 42 49 56 63 70 '
@@ -38,7 +38,7 @@ def test_q3(capfd):
             out, err = capfd.readouterr()
             assert out == v
 
-def test_q4(capfd):
+def test_q04(capfd):
     input_output = {
         'romulo junior':'Romulo Junior\n', 
         'zé da manga': 'Zé da Manga\n'
@@ -49,7 +49,7 @@ def test_q4(capfd):
             out, err = capfd.readouterr()
             assert out == v
 
-def test_q5(capfd):
+def test_q05(capfd):
     input_output = {
         '222':'equilátero\n',
         '322': 'isósceles\n',
